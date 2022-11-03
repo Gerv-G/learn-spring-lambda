@@ -28,4 +28,4 @@ docker run -p 9000:8000 spring-aws-lambda
 ## Invoking the function
 If running via `bootRun`, do a `GET http://localhost:8080/`
 
-If running in a container, do a `GET GET http://localhost:9000/2015-03-31/functions/function/invocations`
+If running in a container, do a `GET http://localhost:9000/2015-03-31/functions/function/invocations`
